@@ -1,0 +1,15 @@
+{
+  "name": "call-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "author": "Vishnu T Suresh <vishnutsuresh@live.com> (vishnutsuresh@live.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

@@ -1,8 +1,9 @@
 {
   "name": "call-queue",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Allows you to create functions such that, you can force them to be called only in a particular order.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha -w"
   },
@@ -11,5 +12,10 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "homepage": "https://github.com/VishnuTSuresh/call-queue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VishnuTSuresh/call-queue.git"
   }
 }

@@ -1,9 +1,9 @@
 var expect = require('chai').expect;
-var get_queue = require("../index.js");
+var CallQueue = require("../index.js").default;
 describe('call-queue', function() {
   describe('fetch', function() {
     it('should call callback in the order of queued function creation', function(done) {
-        var queue=get_queue();
+        var queue=new CallQueue();
         var result=[];
         var callback=function(index){
             result.push(index);
@@ -26,7 +26,7 @@ describe('call-queue', function() {
         
     });
     it('should call callback in the order of queued function creation asynchronously', function(done) {
-        var queue=get_queue();
+        var queue=new CallQueue();
         var result=[];
 
         var callback=function(index){

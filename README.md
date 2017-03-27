@@ -1,7 +1,9 @@
 # call-queue
 Allows you to create functions such that, you can force them to be called only in a particular order.
+
 ## Installation
 npm install call-queue
+
 ## Usage
 You may look at test file for good usage examples.
 
